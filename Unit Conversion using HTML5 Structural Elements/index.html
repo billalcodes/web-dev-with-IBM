@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Conversions</title>
+
+    <script src="script.js"></script>
 </head>
 <body>
     <section id="home">
@@ -30,7 +32,7 @@
                         <label for="Temperature">Celsius</label> <br>
                         <input type="number" id="c"> <br>
 
-                        <button id="temperature"> Convert </button> <br>
+                        <button id="temperature" onclick="temp()"> Convert </button> <br>
 
                         <input type="number" id="f"> <br>
                         <label for="Temperature">Farenhite</label>
@@ -53,7 +55,7 @@
                         <label for="Weight">Kilogram</label> <br>
                         <input type="number" id="k"> <br>
 
-                        <button id="weight"> Convert </button> <br>
+                        <button id="weight" onclick="weight()"> Convert </button> <br>
 
                         <input type="number" id="p"> <br>
                         <label for="Weight">Pound</label>
@@ -77,7 +79,7 @@
                             Kilometers
                         </label><br>
                         <input type="number" id="km"><br>
-                        <button id="Distance"> Convert </button> <br>
+                        <button id="Distance" onclick="distance()"> Convert </button> <br>
                         <input type="number" id="m"><br>
                         <label for="Distance">Miles</label>
                     </fieldset>
